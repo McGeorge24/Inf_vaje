@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>C++ vs. Python</title>
+    <meta charset="UTF-8">
+    <link href="podrobneje.css" rel="stylesheet">
+    <link href="layout.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="menu">
+        <a href="index.html" , class="gumblink">O PROJEKTU</a>
+        <a href="osnove.html" , class="gumblink">OSNOVE</a>
+        <a href="podrobneje.html" , class="gumblink" , id="podrobneje">PODROBENJE</a>
+        <a href="arhitektura.html" , class="gumblink">ARHITEKTURA</a>
+        <a href="../" , class="gumblink">NAZAJ V 2A</a>
+        <p id="podpis"><i> Jure Steiner 2024</i></p>
+    </div>
+
+    <div id="ozadje"></div>
+
+    <div class="content">
+        <h1>Podrobnejša primerjava C++ in Pythona</h1>
+
+
+        <div id="o_pythonu">
+            <h2>Python</h2>
+            <ul> <u class="pros"><b>Prednosti:</b></u>
+                <li>preprosta sintaksa,</li>
+                <li>ne komplicira s tipi spremenljivk (stringe lahko množiš, seštevaš),</li>
+                <li>večino časa deluje z manj kode.</li>
+            </ul>
+
+            <ul><u class="cons"><b>Slabosti:</b></u>
+                <li>počasen jezik (predvsem za daljše programe/dolge zanke),</li>
+                <li>pri bolj kompleksnih programih neveš kako sploh deluje:
+                    <ul>
+                        <li>pri podajanju spremenljivk kot parametre (kdaj bo podal kazalec, kdaj vrednost???),</li>
+                        <li>včasih urejevalnik sploh neprepozna tipa spremenljivke in napiše <i
+                                style="color:lightskyblue">type:any</i></li>
+                    </ul>
+
+                </li>
+            </ul>
+        </div>
+
+
+        <div id="o_cpp">
+            <h2>C++</h2>
+
+            <ul> <u class="pros"><b>Prednosti:</b></u>
+                <li>Bolj "določen" kot python:
+                    <ul>
+                        <li>vedno je samo ena možnost, </li>
+                        <li>vedno veš kaj se dejasnko zgodi,</li>
+                        <li>točno določeni opisi napak,</li>
+                    </ul>
+                </li>
+                <li>zelo velika standardna knjižnica.</li>
+            </ul>
+
+            <ul> <u class="cons"><b>Slabosti:</b></u>
+                <li>ponavadi je potrebnih več besed/znakov za določeno kodo,</li>
+                <li>veliko se je za naučiti (kako funkcionira jezik)</li>
+                <li>pri izdelavi večjih projektov se zelo zakomplicira <ul>
+                        <li>urejanje strukture,</li>
+                        <li>prevajanje,</li>
+                        <li>povezovanje binarnih datotek.</li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+
+        <div id="slike">
+            <img id="code_python" src="slike/code_python.png">
+            <img id="code_cpp" src="slike/code_cpp.png">
+        </div>
+
+        <hr>
+        <p><i>Jure Steiner 2024</i></p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+#cpplogo {
+    display: inline-block;
+}
+
+#bjarne {
+    display: inline-block;
+}
+
+#guido {
+    display: inline-block;
+}
+
+#pythonlogo {
+    display: inline-block;
+}
+
+.o_jeziku {
+    padding-left: 2%;
+}
+
+h3 {
+    margin-left: -2%;
+}

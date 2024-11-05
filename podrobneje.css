@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#ozadje {
+    height: 150%;
+    /* Makes the div cover the full viewport height */
+    width: 85%;
+    /* Makes the div span the full width of the page */
+    background-image: url('slike/code_background.jpg');
+    /* Background image */
+    background-size: cover;
+    /* Ensures the image covers the entire div */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+
+    background-color: rgba(255, 255, 255, 0.45);
+    background-blend-mode: overlay;
+    padding: 0px;
+    margin-top: -25px;
+    margin-left: 15%;
+
+    filter: blur(4px);
+    position: fixed;
+    z-index: -1;
+}
+
+h1 {
+    background-color: rgba(45, 70, 90, 0.3);
+    width: 100%;
+    color: rgb(48, 92, 4);
+    padding: 20px;
+    padding-left: 2%;
+    margin: 0px;
+}
+
+h2 {
+    color: rgb(48, 92, 4);
+}
+
+.pros {
+    color: green;
+    font-size: x-large;
+}
+
+.cons {
+    color: red;
+    font-size: x-large;
+}
+
+#o_pythonu {
+    background-color: rgba(45, 70, 90, 0.3);
+    max-width: 100%;
+    background-position: center;
+    margin: 0.1%;
+    padding: 0.1%;
+    padding-left: 2%;
+}
+
+#o_cpp {
+    background-color: rgba(45, 70, 90, 0.3);
+    max-width: 100%;
+    background-position: center;
+    margin: 0.1%;
+    padding: 0.1%;
+    padding-left: 2%;
+}
+
+#slike {
+    background-color: rgba(45, 70, 90, 0.3);
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 1px;
+}
+
+#code_python {
+    border-radius: 35px;
+    max-width: 450px;
+}
+
+#code_cpp {
+    max-width: 450px;
+    border-radius: 35px;
+}

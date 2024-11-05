@@ -1,0 +1,79 @@
+.menu {
+    position: fixed;
+    left: 0px;
+    background-color: rgb(48, 92, 4);
+    width: 20%;
+    height: 100%;
+    top: 0px;
+}
+
+.gumblink {
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #859F3D;
+    height: 10%;
+    color: rgb(203, 207, 215);
+    font-size: 180%;
+    text-decoration: none;
+    background-color: rgb(72, 123, 18);
+}
+
+.gumblink:hover {
+    transition: all;
+    transition-duration: 250ms;
+    background-image: url("slike/datastream1.jpg");
+    background-color: rgba(113, 147, 21);
+    background-blend-mode: overlay;
+    color: white;
+}
+
+.gumblink:active {
+    background-color: #637D1B;
+    border-color: black;
+    border-width: 2px;
+}
+
+#podpis {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    color: white;
+}
+
+.content {
+    position: relative;
+    margin-left: 20%;
+}
+
+#domov {
+    background-image: url("slike/datastream1.jpg");
+    background-color: rgb(113, 147, 21);
+    background-blend-mode: overlay;
+    color: white;
+}
+
+
+#podrobneje {
+    background-image: url("slike/datastream1.jpg");
+    background-color: rgb(113, 147, 21);
+    background-blend-mode: overlay;
+    color: white;
+}
+
+#arhitektura {
+    background-image: url("slike/datastream1.jpg");
+    background-color: rgb(113, 147, 21);
+    background-blend-mode: overlay;
+    color: white;
+}
+
+
+#osnove {
+    background-image: url("slike/datastream1.jpg");
+    background-color: rgb(113, 147, 21);
+    background-blend-mode: overlay;
+    color: white;
+
+}
